@@ -18,7 +18,6 @@ export default function App() {
 
 const appStyle = StyleSheet.create({
   container: {
-    gap: 30,
     margin: 30,
   },
 });
@@ -26,7 +25,9 @@ const appStyle = StyleSheet.create({
 function List({ data }) {
   return (
     <View style={listStyle.container}>
-      {data.map((item) => (<Item key={item.id} title={item.title} />))}
+      {data.map((item) => (
+        <Item key={item.id} title={item.title} />
+      ))}
     </View>
   );
 }

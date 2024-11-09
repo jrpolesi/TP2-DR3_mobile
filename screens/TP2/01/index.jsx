@@ -18,8 +18,7 @@ export default function App() {
 
 const appStyle = StyleSheet.create({
   container: {
-    gap: 30,
-    marginVertical: 30,
+    margin: 30,
   },
 });
 
@@ -35,7 +34,7 @@ function List({ data }) {
 
 const listStyle = StyleSheet.create({
   container: {
-    alignItems: "center",
+    alignItems: "stretch",
     gap: 10,
   },
 });
@@ -51,7 +50,6 @@ function Item({ title }) {
 const itemStyle = StyleSheet.create({
   container: {
     borderWidth: 1,
-    width: "90%",
     paddingVertical: 15,
     paddingHorizontal: 4,
   },

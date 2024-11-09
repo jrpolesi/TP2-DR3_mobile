@@ -18,7 +18,6 @@ export default function App() {
 
 const appStyle = StyleSheet.create({
   container: {
-    gap: 30,
     margin: 30,
   },
 });
