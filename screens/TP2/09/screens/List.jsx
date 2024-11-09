@@ -47,6 +47,7 @@ function Post({ title, summary, likes, shares, onPress }) {
 const postStyle = StyleSheet.create({
   container: {
     borderWidth: 1,
+    borderColor: "black",
     padding: 20,
   },
   title: {

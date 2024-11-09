@@ -12,13 +12,9 @@ export function Languages() {
       <View style={languagesStyle.container}>
         {LANGUAGES.map((language) => (
           <View key={language.id} style={languagesStyle.card}>
-            <Text key={language.id} style={languagesStyle.name}>
-              {language.name}
-            </Text>
+            <Text style={languagesStyle.name}>{language.name}</Text>
             <Text>-</Text>
-            <Text key={language.id} style={languagesStyle.level}>
-              {language.level}
-            </Text>
+            <Text style={languagesStyle.level}>{language.level}</Text>
           </View>
         ))}
       </View>
@@ -37,6 +33,7 @@ const languagesStyle = StyleSheet.create({
     alignItems: "center",
     gap: 10,
     borderWidth: 1,
+    borderColor: "black",
     padding: 20,
   },
   name: {

@@ -50,6 +50,7 @@ function Item({ title }) {
 const itemStyle = StyleSheet.create({
   container: {
     borderWidth: 1,
+    borderColor: "black",
     paddingVertical: 15,
     paddingHorizontal: 4,
   },

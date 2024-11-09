@@ -23,6 +23,7 @@ export function Item({ img, name, description, quantity, price }) {
 const itemStyle = StyleSheet.create({
   container: {
     borderWidth: 1,
+    borderColor: "black",
     paddingVertical: 10,
     paddingHorizontal: 15,
     flexDirection: "row",
@@ -32,6 +33,7 @@ const itemStyle = StyleSheet.create({
     width: 70,
     height: 80,
     borderWidth: 1,
+    borderColor: "black",
   },
   info: {
     flexDirection: "column",

@@ -15,6 +15,7 @@ export function Experience({ title, from, to, description }) {
 const experienceStyle = StyleSheet.create({
   container: {
     borderWidth: 1,
+    borderColor: "black",
     padding: 20,
   },
   title: {

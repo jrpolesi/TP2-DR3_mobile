@@ -84,6 +84,7 @@ function Item({ img, name, address, phone }) {
 const itemStyle = StyleSheet.create({
   container: {
     borderWidth: 1,
+    borderColor: "black",
     paddingVertical: 10,
     paddingHorizontal: 15,
     flexDirection: "row",
@@ -93,6 +94,7 @@ const itemStyle = StyleSheet.create({
     width: 57,
     height: 72,
     borderWidth: 1,
+    borderColor: "black",
   },
   info: {
     flexDirection: "column",

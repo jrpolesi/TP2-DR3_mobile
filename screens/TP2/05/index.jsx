@@ -51,6 +51,7 @@ const itemStyle = StyleSheet.create({
   container: {
     minWidth: 100,
     borderWidth: 1,
+    borderColor: "black",
     alignItems: "flex-start",
     paddingVertical: 15,
     paddingHorizontal: 4,

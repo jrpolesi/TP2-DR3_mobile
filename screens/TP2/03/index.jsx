@@ -54,6 +54,7 @@ const itemStyle = StyleSheet.create({
     width: "47%",
     minWidth: 100,
     borderWidth: 1,
+    borderColor: "black",
     alignSelf: "flex-start",
     paddingVertical: 15,
     paddingHorizontal: 4,
