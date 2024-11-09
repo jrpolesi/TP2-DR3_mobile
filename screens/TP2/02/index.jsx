@@ -36,7 +36,6 @@ function List({ data }) {
 const listStyle = StyleSheet.create({
   container: {
     flexDirection: "row",
-    flexWrap: "wrap",
     gap: 10,
   },
 });
